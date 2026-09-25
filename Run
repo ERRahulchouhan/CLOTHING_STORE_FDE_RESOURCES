@@ -1,0 +1,20 @@
+How to run
+
+first create uv venv clientenv
+
+uv pip install -r requesment.txt
+
+python main.py your application will start running and 
+
+mongo.cloude generate the key 
+
+set into .env
+
+
+firsy you register any user then goto databse
+
+add one column is_admin:true  so yoiu can add the product and build upload you can do
+
+portkey for llmgetway 
+
+logfire for logging and observbility purpose

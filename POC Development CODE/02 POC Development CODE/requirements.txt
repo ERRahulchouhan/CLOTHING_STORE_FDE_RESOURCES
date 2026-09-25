@@ -1,0 +1,27 @@
+pymongo
+
+
+# --- Web --- DEMO
+fastapi
+uvicorn
+
+# --- Config ---
+pydantic-settings
+python-dotenv                    # load_dotenv() in app/config.py
+
+# --- Database (read-only access to the client's product catalog) ---
+pymongo
+
+# --- The assistant ---
+pydantic-ai-slim[openai,groq]    # agent + OpenAI-compatible / Groq model providers
+groq                             # guardrail models, called directly (AsyncGroq)
+openai                           # guardrail models via the Portkey gateway (AsyncOpenAI)
+
+# --- Observability ---
+logfire                          # pipeline.py/guardrails.py call it directly; no-op without a token
+
+portkey                  # gateway
+
+# evals
+
+pydantic_evals

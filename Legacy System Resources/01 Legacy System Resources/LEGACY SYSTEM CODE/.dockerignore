@@ -1,0 +1,32 @@
+# Not needed in the image
+.git/
+.claude/
+README.md
+commands.md
+docs/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+clothenv/
+.venv/
+venv/
+
+# Environment variables (injected at deploy time)
+.env
+.env.*
+!.env.example
+
+# Caches / logs / scratch
+.pytest_cache/
+.mypy_cache/
+*.log
+experiments/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

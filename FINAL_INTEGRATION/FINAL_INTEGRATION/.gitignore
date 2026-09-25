@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+luxeenv
+clientenv
+
+
+# Virtual environments
+clothenv/
+.venv/
+venv/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Editor / OS
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Build output
+dist/
+build/
+*.egg-info/
+
+# Test & type-check caches
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Logs
+*.log
+
+# Pydantic Logfire local cache
+.logfire/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local scratch notebooks — never committed
+experiments/

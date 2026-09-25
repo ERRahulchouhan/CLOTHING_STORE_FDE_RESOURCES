@@ -1,0 +1,11 @@
+rahulsayon92_db_user
+
+rOR6r71uCCEJAHmK
+
+mongodb+srv://rahulsayon92_db_user:rOR6r71uCCEJAHmK@clothstore.d9u6nih.mongodb.net/
+
+rahulsayon90_db_user
+
+TcGatyiNibSR97cV
+
+mongodb+srv://rahulsayon90_db_user:<db_password>@learning-db.rhbseks.mongodb.net/
